@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plotly Dashboard</title>
+    <!-- Include Plotly.js from CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <!-- Graph container -->
+    <div id="plotlyGraph"></div>
+
+    <script>
+        // Sample data
+        var data = [{
+            x: ['2022-01-01', '2022-02-01', '2022-03-01', '2022-04-01', '2022-05-01'],
+            y: [10, 20, 15, 25, 30],
+            type: 'scatter',
+            mode: 'lines+markers',
+            marker: {color: 'blue'},
+            name: 'Time Series Data'
+        }];
+
+        // Layout configuration
+        var layout = {
+            title: 'Time Series Chart',
+            xaxis: {
+                title: 'Date'
+            },
+            yaxis: {
+                title: 'Value'
+            }
+        };
+
+        // Create the Plotly graph
+        Plotly.newPlot('plotlyGraph', data, layout);
+    </script>
+</body>
+</html>
