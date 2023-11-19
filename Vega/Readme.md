@@ -27,3 +27,9 @@ Here are the main differences between Vega and Vega-Lite:
 - Learning Curve:
     Vega: Has a steeper learning curve due to its lower-level abstraction.
     Vega-Lite: Has a more gentle learning curve, making it quicker to pick up and use.
+
+
+
+https://towardsdatascience.com/interactive-data-visualization-with-vega-ab09e2843d54
+
+https://youtu.be/lQGCipY3th8?si=v54B8AkG7oUR4A3B
