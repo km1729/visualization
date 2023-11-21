@@ -33,3 +33,5 @@ Here are the main differences between Vega and Vega-Lite:
 https://towardsdatascience.com/interactive-data-visualization-with-vega-ab09e2843d54
 
 https://youtu.be/lQGCipY3th8?si=v54B8AkG7oUR4A3B
+
+vega-lite  https://www.youtube.com/watch?v=Nsrz4YdaZ_A  

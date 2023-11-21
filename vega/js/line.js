@@ -6,7 +6,13 @@ const yourSpec = {
         "x": {"field": "category", "type": "ordinal"},
         "y": {"field": "value", "type": "quantitative"}
     },
-    "data": {"url": "data/line_chart.json"} // Corrected path to your JSON file
+    "data": {"url": "data/line_chart.json"}, // Corrected path to your JSON file
+    "selection": {
+        "grid": {
+          "type": "interval",
+          "bind": "scales"
+        }
+      }
 };
 
 vegaEmbed("#vis", yourSpec);
